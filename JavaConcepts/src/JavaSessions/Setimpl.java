@@ -11,7 +11,7 @@ public class Setimpl {
 		// Syntax:
 		
 		Set<String> s1=new HashSet<String>();
-		
+	//	ArrayList<String> ar=new ArrayList()
 		//does not allow Duplicates
 		
 		//add

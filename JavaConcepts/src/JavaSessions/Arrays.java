@@ -64,27 +64,32 @@ public class Arrays {
 //		}
 //		
 //		
-//		String Employee[]=new String[5];
-//		
-//		Employee[0]="Kalpesh";
-//		Employee[1]="Ankit";
-//		Employee[2]="Sudhir";
-//		Employee[3]="Neil";
-//		Employee[4]="Sid";
-//
-//		for (String i : Employee ) {
-//			System.out.println(i);
-//		}
+		String Employee[]=new String[5];
+		
+		Employee[0]="Kalpesh";
+		Employee[1]="Ankit";
+		Employee[2]="Sudhir";
+		Employee[3]="Neil";
+		Employee[4]="Sid";
+
+		for (int i=0;i< Employee.length;i++) {
+			System.out.println(Employee[i]);
+				if(Employee[i].equals("Sudhir")) {
+				break;	
+			}
+		}
 		
 		
 		//Nested-loop
 		
-		for(int k =0;k<=7;k++) {
-			 for(int h = 0;h<=4;h++) {
-				System.out.println("k:"+k+"h:"+h);
-			}
-		}
+//		for(int k =0;k<=7;k++) {
+//			 for(int h = 0;h<=4;h++) {
+//				System.out.println("k:"+k+"h:"+h);
+//			}
+//		}
+//		
 		
+	
 		
 		
 		
